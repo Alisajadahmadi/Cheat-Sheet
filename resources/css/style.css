@@ -1,0 +1,40 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0 auto;
+    background-color: rgb(3, 17, 31);
+    color: white;
+}
+
+h1,
+h3{
+    text-align: center;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+table, th , td{
+    border: 2px solid rgb(161, 161, 161);
+}
+
+th{
+    padding: 20px 0px 15px 0px;
+}
+
+td{
+    padding: 10px 20px 5px 15px;
+}
